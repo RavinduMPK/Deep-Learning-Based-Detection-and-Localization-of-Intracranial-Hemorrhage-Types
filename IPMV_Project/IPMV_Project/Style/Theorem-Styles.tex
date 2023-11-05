@@ -1,0 +1,58 @@
+\RequirePackage{amsthm}%
+\def\th@plain{%
+\thm@preskip\parskip
+\thm@postskip\z@
+\itshape % body font
+}
+\def\th@definition{%
+\thm@preskip\parskip
+\thm@postskip\z@
+\normalfont % body font
+}
+\def\th@remark{%
+\thm@headfont{\itshape}%
+\normalfont % body font
+\thm@preskip\parskip \divide\thm@preskip\tw@
+\thm@postskip\z@
+}
+
+%\newenvironment{pf}%
+%  {\par\addvspace{\@bls \@plus 0.5\@bls \@minus 0.1\@bls}\noindent
+%   {\bfseries\Elproofname}\enspace\ignorespaces}%
+%  {\par\addvspace{\@bls \@plus 0.5\@bls \@minus 0.1\@bls}}
+%\def\Elproofname{PROOF.}
+%\@namedef{pf*}#1{\par\begingroup\def\Elproofname{#1}\pf\endgroup\ignorespaces}
+%\expandafter\let\csname endpf*\endcsname=\endpf
+
+
+\newtheoremstyle{XYZ}% name
+{3pt}% Space above
+{3pt}% Space below
+{}% Body font
+{}% Indent amount
+{\bfseries}% Theorem head font
+{}% Punctuation after theorem head
+{.5em}% Space after theorem head
+{\bfseries{#1 #2\if#3\else~(#3)\fi.}}% Theorem head spec (can be left empty, meaning `normal')
+
+
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+\newtheorem{claim}{Claim}
+\newtheorem{axiom}{Axiom}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{fact}{Fact}
+\newtheorem{hypothesis}{Hypothesis}
+\newtheorem{assumtion}{Assumption}
+\newtheorem{criterion}{Criterion}
+\theoremstyle{XYZ}
+\newtheorem{definition}{Definition}
+\newtheorem{example}{Example}
+\newtheorem{remark}{Remark}
+\newtheorem{notation}{Notation}
+\newtheorem{problem}{Problem}
+\newtheorem{principle}{Principle} 
