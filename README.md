@@ -19,7 +19,7 @@ Intracranial Hemorrhage (ICH) is a critical medical condition characterized by b
 
 Timely detection and accurate classification of ICH are paramount for effective medical intervention. Given the potential severity of intracranial hemorrhages and their contribution to strokes, early identification enables prompt medical responses, leading to improved patient outcomes. Non-contrast head CT scans serve as a crucial diagnostic tool for swiftly assessing and diagnosing ICH.
 
-### 1.3 Role of Deep Learning, Specifically YOLOv8
+### 1.3 Role of Deep Learning, Specifically [YOLOv8](https://github.com/ultralytics/ultralytics)
 
 This project emphasizes the application of deep learning, with a specific focus on YOLOv8, to address the challenges associated with detecting and classifying various types of intracranial hemorrhages. Deep learning algorithms, and in this case, YOLOv8, have demonstrated remarkable efficacy in image analysis tasks, especially in medical imaging. YOLOv8's ability to accurately identify and localize hemorrhages in CT scans showcases its potential for enhancing diagnostic processes and facilitating timely clinical interventions.
 
@@ -97,7 +97,7 @@ In the preparation phase of the study, it was noted that certain images in the C
 ![image](https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/ef0ed972-56c1-4287-9254-376c9ec72604)
 
 
-### 2.5 YOLOv8
+### 2.5 [YOLOv8](https://github.com/ultralytics/ultralytics)
 
 <p align="center">
   <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/8800ddc8-de27-4291-b15f-220774e1338c" alt="image09">
@@ -105,7 +105,7 @@ In the preparation phase of the study, it was noted that certain images in the C
 
 [YOLOv8](https://github.com/ultralytics/ultralytics) is a state-of-the-art object detection algorithm that offers exceptional performance in terms of accuracy and speed. It's the latest iteration in the YOLO series, built by Ultralytics. YOLOv8 stands out for its advancements in deep learning and computer vision, providing unparalleled capabilities for object detection, segmentation, pose estimation, tracking, and classification.
 
-**Key Features of YOLOv8:**
+**Key Features of [YOLOv8](https://github.com/ultralytics/ultralytics):**
 - **Real-time Object Detection:** YOLOv8 excels in processing images and videos in real-time, making it suitable for applications that require immediate object identification.
 
 - **High Accuracy:** YOLOv8 achieves impressive accuracy in detecting and classifying objects, even in complex environments with varying lighting conditions and occlusions.
@@ -116,7 +116,7 @@ In the preparation phase of the study, it was noted that certain images in the C
 
 - **Ease of Use:** YOLOv8 provides a user-friendly interface and extensive documentation, making it accessible to both beginners and experienced developers.
 
-**Applications of YOLOv8:**
+**Applications of [YOLOv8](https://github.com/ultralytics/ultralytics):**
 
 - Autonomous Vehicles: YOLOv8 can detect and track objects on the road, enabling autonomous vehicles to navigate safely.
 
@@ -128,7 +128,7 @@ In the preparation phase of the study, it was noted that certain images in the C
 
 - Agricultural Monitoring: YOLOv8 can monitor crop health and identify pests or diseases in agricultural fields.
 
-YOLOv8 is employed for hemorrhage detection, utilizing its advanced architecture, self-attention mechanism, multi-scaled object detection, and ensemble approach.
+[YOLOv8](https://github.com/ultralytics/ultralytics) is employed for hemorrhage detection, utilizing its advanced architecture, self-attention mechanism, multi-scaled object detection, and ensemble approach.
 
 <p align="center">
   <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/7800cf12-8002-431a-bd8b-37d8b03df4f9" alt="image08">
