@@ -32,7 +32,31 @@ This project emphasizes the application of deep learning, with a specific focus 
 
 ### 2.1 Dataset
 
-The BHX dataset contains annotated bounding boxes for six hemorrhage types, totaling 39,668 bounding boxes in 23,409 images.
+The BHX dataset is a publicly available dataset that serves as an extension of the qure.ai CQ500 dataset, specifically focusing on intracranial hemorrhages. This dataset is designed to facilitate research and development in the field of medical image analysis, particularly for the detection and localization of different types of acute hemorrhages within the brain.
+
+
+**Source and Origin:**
+- The BHX dataset is an extension of the **_qure.ai CQ500_** dataset. The CQ500 dataset is a collection of anonymized head CT scans that was made available for research purposes.
+
+**Hemorrhage Types:**
+- The dataset is annotated for **five** types of acute hemorrhages: **_Intraparenchymal, Subarachnoid, Intraventricular, Epidural, and Subdural_**.
+- Additionally, there is an extra **sixth** label for _**Chronic Subdural Hematoma**_.
+
+<p align="center">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/179dc2b3-3d67-4aa1-bb42-d54d95b36ec9" alt="image03">
+</p>
+
+**Bounding Box Annotations:**
+- The dataset provides bounding box annotations for each of the hemorrhage types. A bounding box typically consists of coordinates specifying the rectangular region in an image where a particular hemorrhage is located.
+- There are a total of **_39,668 bounding boxes_** annotated in **_23,409 images_**, indicating the presence and location of hemorrhages within these images.
+
+**Purpose:**
+- The primary purpose of the BHX dataset is to support the development and evaluation of algorithms for the automatic detection and classification of intracranial hemorrhages.
+- It enables researchers, data scientists, and developers to train and test machine learning models, particularly deep learning models, for medical image analysis.
+
+**Accessibility:**
+- As a public dataset, BHX is accessible to the research community, allowing for collaboration, benchmarking, and advancements in the field of medical imaging. The dataset can be accessed on [PhysioNet](https://physionet.org/content/bhx-brain-bounding-box/1.1/).
+
 
 ### 2.2 Methodology
 
