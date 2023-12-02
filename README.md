@@ -83,13 +83,52 @@ The CQ500 Head CT images dataset served as the source of annotated CT scan image
 4. **Morphology Dilation:** Removes small noise particles.
 5. **Dimension Squeezing:** Reduces unnecessary dimensions.
 
+<p align="center">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/21f294ca-808d-4532-8d73-f157fcf571bc" alt="image07">
+</p>
+<p align="center">
+  (a) Before pre-process    (b) After pre-process
+</p>
+
 ### 2.4 Data Preparation for Training
 
-Data preparation addresses class imbalances, ensuring the model handles multifaceted scenarios in medical image analysis.
+In the preparation phase of the study, it was noted that certain images in the CQ500 dataset contained multiple instances of brain hemorrhages, each corresponding to a different type. To address this, a data preprocessing strategy was implemented, involving the separation of individual annotations for each type of hemorrhage within such images. This approach facilitated the introduction of the same image multiple times into the training pipeline, with each iteration dedicated to a distinct annotation. This strategy ensured that the deep learning model could effectively discern and annotate each type of hemorrhage independently, even within the same image context. Despite the need for repetitive presentation of identical images with distinct annotations, this method significantly contributed to enhancing the model's capacity to accurately detect and classify various types of brain hemorrhages, particularly when they co-occur within a single image. The analysis of class imbalance, as depicted in following figure, revealed that it was not a significant issue, except for the Epidural class. The final dataset for training and validation consisted of 21,751 images (80%) and 5,438 images (20%), respectively. Additionally, since YOLOv8 was utilized as the model, image resizing from **_512x512 to 640x640_** pixels was performed to align with the model's requirements. This comprehensive preprocessing strategy and dataset preparation set the foundation for the subsequent successful training and evaluation of the YOLOv8 model in the detection and localization of intracranial hemorrhages.
+
+![image](https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/ef0ed972-56c1-4287-9254-376c9ec72604)
+
 
 ### 2.5 YOLOv8
 
+YOLOv8 is a state-of-the-art object detection algorithm that offers exceptional performance in terms of accuracy and speed. It's the latest iteration in the YOLO series, built by Ultralytics. YOLOv8 stands out for its advancements in deep learning and computer vision, providing unparalleled capabilities for object detection, segmentation, pose estimation, tracking, and classification.
+
+**Key Features of YOLOv8:**
+- Real-time Object Detection: YOLOv8 excels in processing images and videos in real-time, making it suitable for applications that require immediate object identification.
+
+- High Accuracy: YOLOv8 achieves impressive accuracy in detecting and classifying objects, even in complex environments with varying lighting conditions and occlusions.
+
+- Scalability: YOLOv8 can be scaled to different performance requirements by adjusting its backbone network and input image resolution.
+
+- Versatility: YOLOv8 supports a wide range of object detection tasks, including instance segmentation, person detection, and vehicle detection.
+
+- Ease of Use: YOLOv8 provides a user-friendly interface and extensive documentation, making it accessible to both beginners and experienced developers.
+
+**Applications of YOLOv8:**
+
+- Autonomous Vehicles: YOLOv8 can detect and track objects on the road, enabling autonomous vehicles to navigate safely.
+
+- Surveillance Systems: YOLOv8 can be used in surveillance systems to monitor for suspicious activity and identify potential threats.
+
+- Medical Image Analysis: YOLOv8 can assist in medical image analysis by detecting and classifying abnormalities in X-rays and CT scans.
+
+- Retail Analytics: YOLOv8 can analyze customer behavior in retail stores to understand product interactions and optimize store layouts.
+
+- Agricultural Monitoring: YOLOv8 can monitor crop health and identify pests or diseases in agricultural fields.
+
 YOLOv8 is employed for hemorrhage detection, utilizing its advanced architecture, self-attention mechanism, multi-scaled object detection, and ensemble approach.
+
+<p align="center">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/7800cf12-8002-431a-bd8b-37d8b03df4f9" alt="image08">
+</p>
 
 ## Results and Discussions
 
