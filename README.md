@@ -1,17 +1,19 @@
 # Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types
 
-
 <p align="center">
-  <img src="![image](https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/91140a3d-c742-4a04-8676-a8c67e8fd212)" alt="img1">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/ac7e4bf9-c715-46eb-ae2a-7d2cc3851c4b" alt="image01">
 </p>
-
-
 
 ## Introduction
 
 ### 1.1 Intracranial Hemorrhage (ICH): A Critical Medical Event
 
 Intracranial Hemorrhage (ICH) is a critical medical condition characterized by bleeding within the skull. It holds substantial clinical significance, accounting for up to 15% of all strokes. Strokes, a severe vascular event affecting the brain, have various causes, and ICH represents a significant subset with distinct clinical implications.
+
+<p align="center">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/43f657cf-9491-46f3-8ad1-ec3aa58b2076" alt="image02">
+</p>
+
 
 ### 1.2 Importance of Timely Detection and Classification
 
@@ -20,6 +22,11 @@ Timely detection and accurate classification of ICH are paramount for effective 
 ### 1.3 Role of Deep Learning, Specifically YOLOv8
 
 This project emphasizes the application of deep learning, with a specific focus on YOLOv8, to address the challenges associated with detecting and classifying various types of intracranial hemorrhages. Deep learning algorithms, and in this case, YOLOv8, have demonstrated remarkable efficacy in image analysis tasks, especially in medical imaging. YOLOv8's ability to accurately identify and localize hemorrhages in CT scans showcases its potential for enhancing diagnostic processes and facilitating timely clinical interventions.
+
+<p align="center">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/5caac976-11d5-4531-98ee-0970eaf80989" alt="image03">
+</p>
+
 
 ## Materials and Methods
 
