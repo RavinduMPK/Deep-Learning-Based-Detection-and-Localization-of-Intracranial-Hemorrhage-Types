@@ -68,7 +68,12 @@ The BHX dataset is a publicly available dataset that serves as an extension of t
 
 ### 2.2 Methodology
 
-The study employs a two-phase methodology involving preprocessing and YOLOv8 model training. The CQ500 Head CT images dataset serves as the source.
+The methodology employed in this study involved the utilization of deep learning techniques to detect and localize hemorrhage types within head CT scan images.
+The CQ500 Head CT images dataset served as the source of annotated CT scan images, which underwent preprocessing to mitigate noise and enhance image quality. Subsequently, a pre-trained deep learning network was employed for training purposes. The training data comprised 80% of the preprocessed images, while the remaining 20% constituted the testing data. The trained deep learning model was then tasked with generating bounding boxes, indicating the location and extent of hemorrhage regions within the CT scan images. The employed method is summarized in following Figure.
+
+<p align="center">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/aafcfdb3-82de-41cc-9e7e-c8d96d86c04c" alt="image07">
+</p>
 
 ### 2.3 Preprocessing Steps
 
