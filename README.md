@@ -99,18 +99,22 @@ In the preparation phase of the study, it was noted that certain images in the C
 
 ### 2.5 YOLOv8
 
-YOLOv8 is a state-of-the-art object detection algorithm that offers exceptional performance in terms of accuracy and speed. It's the latest iteration in the YOLO series, built by Ultralytics. YOLOv8 stands out for its advancements in deep learning and computer vision, providing unparalleled capabilities for object detection, segmentation, pose estimation, tracking, and classification.
+<p align="center">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/8800ddc8-de27-4291-b15f-220774e1338c" alt="image09">
+</p>
+
+[YOLOv8](https://github.com/ultralytics/ultralytics) is a state-of-the-art object detection algorithm that offers exceptional performance in terms of accuracy and speed. It's the latest iteration in the YOLO series, built by Ultralytics. YOLOv8 stands out for its advancements in deep learning and computer vision, providing unparalleled capabilities for object detection, segmentation, pose estimation, tracking, and classification.
 
 **Key Features of YOLOv8:**
-- Real-time Object Detection: YOLOv8 excels in processing images and videos in real-time, making it suitable for applications that require immediate object identification.
+- **Real-time Object Detection:** YOLOv8 excels in processing images and videos in real-time, making it suitable for applications that require immediate object identification.
 
-- High Accuracy: YOLOv8 achieves impressive accuracy in detecting and classifying objects, even in complex environments with varying lighting conditions and occlusions.
+- **High Accuracy:** YOLOv8 achieves impressive accuracy in detecting and classifying objects, even in complex environments with varying lighting conditions and occlusions.
 
-- Scalability: YOLOv8 can be scaled to different performance requirements by adjusting its backbone network and input image resolution.
+- **Scalability:** YOLOv8 can be scaled to different performance requirements by adjusting its backbone network and input image resolution.
 
-- Versatility: YOLOv8 supports a wide range of object detection tasks, including instance segmentation, person detection, and vehicle detection.
+- **Versatility:** YOLOv8 supports a wide range of object detection tasks, including instance segmentation, person detection, and vehicle detection.
 
-- Ease of Use: YOLOv8 provides a user-friendly interface and extensive documentation, making it accessible to both beginners and experienced developers.
+- **Ease of Use:** YOLOv8 provides a user-friendly interface and extensive documentation, making it accessible to both beginners and experienced developers.
 
 **Applications of YOLOv8:**
 
@@ -118,7 +122,7 @@ YOLOv8 is a state-of-the-art object detection algorithm that offers exceptional 
 
 - Surveillance Systems: YOLOv8 can be used in surveillance systems to monitor for suspicious activity and identify potential threats.
 
-- Medical Image Analysis: YOLOv8 can assist in medical image analysis by detecting and classifying abnormalities in X-rays and CT scans.
+- **Medical Image Analysis:** YOLOv8 can assist in medical image analysis by detecting and classifying abnormalities in **_X-rays and CT scans_**.
 
 - Retail Analytics: YOLOv8 can analyze customer behavior in retail stores to understand product interactions and optimize store layouts.
 
