@@ -43,12 +43,16 @@ The BHX dataset is a publicly available dataset that serves as an extension of t
 - Additionally, there is an extra **sixth** label for _**Chronic Subdural Hematoma**_.
 
 <p align="center">
-  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/179dc2b3-3d67-4aa1-bb42-d54d95b36ec9" alt="image03">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/179dc2b3-3d67-4aa1-bb42-d54d95b36ec9" alt="image04">
 </p>
 
 **Bounding Box Annotations:**
 - The dataset provides bounding box annotations for each of the hemorrhage types. A bounding box typically consists of coordinates specifying the rectangular region in an image where a particular hemorrhage is located.
 - There are a total of **_39,668 bounding boxes_** annotated in **_23,409 images_**, indicating the presence and location of hemorrhages within these images.
+  
+<p align="center">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/d2817256-375c-4d72-a9d5-96239a51262c" alt="image05">
+</p>
 
 **Purpose:**
 - The primary purpose of the BHX dataset is to support the development and evaluation of algorithms for the automatic detection and classification of intracranial hemorrhages.
@@ -56,6 +60,10 @@ The BHX dataset is a publicly available dataset that serves as an extension of t
 
 **Accessibility:**
 - As a public dataset, BHX is accessible to the research community, allowing for collaboration, benchmarking, and advancements in the field of medical imaging. The dataset can be accessed on [PhysioNet](https://physionet.org/content/bhx-brain-bounding-box/1.1/).
+
+<p align="center">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/ef944712-683f-4c38-845c-e457806d3d0a" alt="image06">
+</p>
 
 
 ### 2.2 Methodology
