@@ -169,7 +169,30 @@ Despite using a single label per image during training, the model demonstrated t
 
 ### 3.3 Comparison
 
-Precision increases with the number of epochs, limited by available GPU resources.
+The precision of the model demonstrated improvement with an increase in the number of trained epochs. However, due to limitations in available GPU resources, the model could not be trained for the desired number of epochs. The authors suggest that achieving even higher precision is plausible by extending the training duration. The provided plots offer a summary of the obtained results for the model evaluation.
+
+**_Note: all plots contains details about 250 - 350 epochs._**
+<p align="center">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/d0922e31-79df-4f58-b9b9-7379184ee8b9" alt="image12">
+</p>
+
+<p align="center">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/6bc4a495-1aed-4d4c-a89e-9f55da0a9b81" alt="image12">
+</p>
+
+<p align="center">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/b9ee95f5-6099-4f91-a22a-55c3b5c97a46" alt="image12">
+</p>
+
+<p align="center">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/3e2703ae-6476-4262-bcbe-d0b0e80cf0bd" alt="image12">
+</p>
+
+<p align="center">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/a97c23d6-5664-4a17-beb9-35d3d46567b6" alt="image12">
+</p>
+
+
 
 ## Future Work
 
