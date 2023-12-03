@@ -138,11 +138,34 @@ In the preparation phase of the study, it was noted that certain images in the C
 
 ### 3.1 Employed Parameters
 
-The model is trained using the CQ500 dataset, incrementally increasing epochs with stochastic gradient descent.
+- The hemorrhage detection model was developed using the CQ500 dataset, consisting of annotated CT scan images.
+- Training was conducted incrementally with a growing number of epochs due to the dataset's size.
+- Pretrained weights initialized the detection network, followed by fine-tuning for hemorrhage detection.
+- **_Stochastic gradient descent (SGD)_** with the **_Adam optimizer_** was employed, starting with a **_learning rate of 0.01_** and **_batch sizes of 16_**.
+- Training concluded when the loss function converged.
+- The model architecture comprises **_225 layers_** with **_3,012,018 learnable parameters and gradients_**.
+- The training and evaluation were performed on **_Kaggle GPU T4 x2 instances with 16GB RAM_** in a cloud-based computing environment.
+
+<p align="center">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/5735a054-5368-4eba-954c-4530ed600521" alt="image09">
+</p>
 
 ### 3.2 Detecting Bounding Boxes and Hemorrhage Types
 
 YOLOv8 successfully detects multiple hemorrhages in a single scan, showcasing its potential for clinical applications.
+Despite using a single label per image during training, the model demonstrated the capability to accurately predict multiple labels within a single scan, as illustrated in following figure. The results, as depicted in following figure, showcased the successful prediction of multiple bounding boxes for hemorrhages. This outcome is noteworthy as it highlights YOLOv8's effectiveness in detecting multiple hemorrhages within a single scan, even when the training dataset initially had images with only a single label. This capability holds significance for clinical applications where the identification of all present hemorrhages in an image is crucial. For further insights, the confusion matrix is recommended.
+
+<p align="center">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/1244da8b-4e7e-402e-a52e-4e68a34d876c" alt="image10">
+</p>
+
+<p align="center">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/8e3ea2ea-7051-47d9-ac23-2cd1ee887c10" alt="image11">
+</p>
+
+<p align="center">
+  <img src="https://github.com/RavinduMPK/Deep-Learning-Based-Detection-and-Localization-of-Intracranial-Hemorrhage-Types/assets/68577937/6b7b4036-2840-4805-8333-ddface3fc5b0" alt="image12">
+</p>
 
 ### 3.3 Comparison
 
