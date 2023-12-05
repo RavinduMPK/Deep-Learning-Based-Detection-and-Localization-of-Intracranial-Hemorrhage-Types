@@ -1,0 +1,14 @@
+
+train: /kaggle/input/cq-500-full-pre-processed/train_data/images/train  # train images (relative to 'path') 128 images
+val: /kaggle/input/cq-500-full-pre-processed/train_data/images/val # val images (relative to 'path') 128 images
+
+
+# Classes
+names:
+  0: Intraparenchymal
+  1: Intraventricular
+  2: Subarachnoid
+  3: Epidural
+  4: Subdural
+  5: Chronic
+  

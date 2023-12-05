@@ -1,0 +1,27 @@
+Complete Intersection over Union (CIoU) loss
+Complete Intersection over Union (CIoU) loss is a function of IoU. It's an extension of Distance-intersection over union (DIoU) loss that considers three geometric measures: 
+	- Overlap area
+	- Central point distance
+	- Aspect ratio
+
+CIoU loss improves the performance of detection and segmentation tasks. It converges faster with fewer iterations than IoU and GIoU. 
+
+CIoU loss is calculated as follows: 
+	D: The normalized distance Iou loss between the center point of the predicted and ground truth boxes
+	V: The consistency of the aspect ratio
+The aspect ratio factor is less important in the case of no overlap and more important in the case of more overlap. 
+
+
+Windowing
+Since the HU range for CT scans can be quite large
+(typically around -1000 to 4000 HU), it is often impractical
+to display the entire range of values in a single
+image. We used the windowing technique to adjust the
+range of pixel values that are displayed in an image,
+effectively zooming in on a specific range of interest.
+We used a window level of 40 and a window width of
+80. This means that only HU values between -20 and
+60 will be displayed, while values outside this range
+will be clipped to the minimum and maximum values,
+respectively. This compresses the HU range and
+enhances brain tissue contrast.
